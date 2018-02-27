@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    nav {
+        #tabs {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding: 10px 15px;
+                cursor: pointer;
+            }
+            .current {
+                background: #ededed;
+                color: #222;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    #content {
+        .tab-content {
+            display: none;
+            background: #ededed;
+            padding: 15px;
+        }
+        .current {
+            display: inherit;
+        }
+    }
+}
