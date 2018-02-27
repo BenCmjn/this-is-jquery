@@ -1,10 +1,26 @@
-<h1 onclick="">Hello world</h1>
+<center><h1 onclick="">Hello world</h1></center>
+
+<div id="carrousel">
+
+    <ul>
+	    <li><img src="https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-0.3.5&s=c56d2f103f6e03eb14f71e6fd90fa224&auto=format&fit=crop&w=967&q=80" /></li>
+		<li><img src="https://images.unsplash.com/photo-1483204358806-afc5571f655b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1c5071cf9dbe323f52de2bc8cf1a5bc&auto=format&fit=crop&w=1050&q=80" /></li>
+		<li><img src="https://images.unsplash.com/photo-1474898856510-884a2c0be546?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c273248fe3fdc5d05883723a21f176c1&auto=format&fit=crop&w=967&q=80" /></li>
+    </ul>
+    <div class="controls">
+		<span class="prev">Precedent</span>
+		<span class="next">Suivant</span>
+	</div>
+</div>
+
+
 <div class="container">
 	<nav>
 		<ul id="tabs">
 			<li class="current" data-tab="tab-1">Présentation</li>
 			<li data-tab="tab-2">Menu</li>
 			<li data-tab="tab-3">Adresse</li>
+			<li data-tab="tab-4">Carte</li>
 		</ul>
 	</nav>
 
@@ -20,6 +36,9 @@
 		<section id="tab-3" class="tab-content">
 			<h3>Adresse</h3>
 			<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).</p>
+		</section>
+		<section id="tab-4" class="tab-content">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9206977095687!2d2.3387183155911786!3d48.82157451125245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671a2052da889%3A0x34fcd8b1c15d0d82!2sCit%C3%A9+Universitaire!5e0!3m2!1sfr!2sfr!4v1519756991720" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</section>
 	</div>
 </div><!-- container -->
